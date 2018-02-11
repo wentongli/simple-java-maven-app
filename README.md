@@ -1,4 +1,4 @@
-# simple-java-maven-app
+# simple-java-maven-app - branch
 
 [![Build Status](http://ubuntu-dl:8080/buildStatus/icon?job=test/master&build=12)](http://ubuntu-dl:8080/job/test/job/master/12/)
 
