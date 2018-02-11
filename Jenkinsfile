@@ -25,6 +25,11 @@ pipeline {
             steps {
                 sh 'mvn package'
             }
+            post {
+               always {
+                  jacoco classPattern: '**/target/classes', execPattern: '**/target/**.exec'
+               }
+            }
        }
     }
 }
